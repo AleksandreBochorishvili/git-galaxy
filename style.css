@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  padding: 50vh;
+  background: #f4f1ea;
+  color: #1c1917;
+  background: radial-gradient(circle at center left, #ffdf87 14%, red 8%, #00000d 25%, #05037e 40%, #00000d 5%, #05037e 5%);
+  background-repeat: no-repeat;
+}
+
+.red {
+  width: 20px;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  background: radial-gradient(red 100%);
+}
+
+.red-two {
+  width: 25px;
+  height: 54%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 23%;
+  left: 2%;
+  background: radial-gradient(red 100%);
+}
+
+.red-three {
+  width: 20px;
+  height: 46%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 27%;
+  left: 8%;
+  background: radial-gradient(red 100%);
+}
+
+.red-four {
+  width: 20px;
+  height: 33%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 34%;
+  left: 11%;
+  background: radial-gradient(red 100%);
+}
+
+.sun {
+  width: 600px;
+  height: 600px;
+  background-image: url(/images/sun.png);
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 16%;
+  left: -17%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.mercury {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  border-radius: 50%;
+  position: absolute;
+  top: 44%;
+  left: 20%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.venus {
+  width: 80px;
+  height: 80px;
+  background-image: url(/images/venus.png);
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 42%;
+  left: 24%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.earth {
+  width: 95px;
+  height: 95px;
+  background-image: url(/images/earth.png);
+  background-size: 110px 100px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 41%;
+  left: 31%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.mars {
+  width: 65px;
+  height: 65px;
+  background-image: url(/images/mars.png);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 43%;
+  left: 40%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.jupiter {
+  width: 400px;
+  height: 400px;
+  background-image: url(/images/jupiter.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+  left: 46%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.saturn {
+  width: 320px;
+  height: 320px;
+  background-color: #00000d;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 72%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.uranus {
+  width: 95px;
+  height: 95px;
+  background-color: #06cdff;
+  border-radius: 50%;
+  position: absolute;
+  top: 41%;
+  left: 90%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.neptun {
+  width: 90px;
+  height: 90px;
+  background-color: #298dff;
+  border-radius: 50%;
+  position: absolute;
+  top: 41%;
+  left: 96%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=style.css.map */
