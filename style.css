@@ -58,14 +58,14 @@ body {
 }
 
 .sun {
-  width: 600px;
-  height: 600px;
+  width: 599px;
+  height: 554px;
   background-image: url(/images/sun.png);
-  background-size: 600px 600px;
+  background-size: 700px;
   background-repeat: no-repeat;
   border-radius: 50%;
   position: absolute;
-  top: 16%;
+  top: 20.5%;
   left: -17%;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
